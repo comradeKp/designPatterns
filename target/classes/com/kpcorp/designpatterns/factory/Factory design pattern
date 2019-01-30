@@ -1,0 +1,10 @@
+Factory Design Pattern:
+The logic of object creation is hidden from the client.
+The client makes the Object of the Factory class and passes parameters to it.
+Based on the inputs and the logic inside the factory class the factory( get instance method)
+creates the object of approprite class that implements the interface.
+Hence the, getInstance() method of the class sorresponding to which the input is provided gets executed.
+
+
+Even when new classes gets added, there wil be changes only in the factory provider class. There will not
+be any hanges in the client side.
