@@ -1,2 +1,24 @@
 Builder Design Pattern :
 Creational design pattern
+
+Suppose there is a phone class which has n number of fields
+It can be set by setters or constructor
+A toString method can be used to print the details
+In the runner we call the constructor with n parameters and the print the object.
+PAssing all parameters - Difficult( To know the sequense) and 
+in some cases the user may not be able to send all the parameters or may be unaware of them
+
+This is overcome by builder design pattern
+There will be setters that returns the object after setting ech parameter step wise
+The Builder class further has a getPhone method that returns the object of phone
+
+At the client side you can create the object of builder
+PhoneBuilder builder  = new PhoneBuilder();
+builder.setSize(11);
+builder.setBattery("B1"); -> There is no need to remember the sequence in whch the parameters are passed
+Phone p = builder.getPhone()
+System.out.println(p);
+
+--------------------------------
+Used when there are mnultiple parameters to be passed in the constructer 
+and it is difficult to memorize the sequense
