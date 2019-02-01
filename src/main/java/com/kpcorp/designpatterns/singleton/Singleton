@@ -1,0 +1,14 @@
+Singleton
+
+Allow to create only one instace of the class.
+Steps to create a singleton class:
+1. Create a static instance of the class
+(It is static because the method in step 3 is atatic and its return type should be static)
+2. Create a private constructor
+3. Create a static method that returns the instance of the class(Step 1)
+
+Drawback - Static insatnce gets created. Because of this the instance is alwys associated with the class and will take up memory
+If the object is bulky = wastage of memory
+This type of object creation = Eagerly instance creation
+We can make it lazy -> We can create the instance only when the getInstance method gets called
+ 
