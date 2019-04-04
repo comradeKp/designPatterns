@@ -1,0 +1,7 @@
+Composite Design Pattern
+A strucural design pattern
+Used when we want to make Objects which have a tree like structure
+Composite Object - Objects composed of other Objects
+Composite Design pattern will have internal Composite objects and leaf Objects(Do not have internal objects)
+If an operation can be performed on the leaf node of compositely designed object
+ then the same operation can be performed on the composite nodes as well

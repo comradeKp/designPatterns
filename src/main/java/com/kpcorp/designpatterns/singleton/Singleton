@@ -7,7 +7,8 @@ Steps to create a singleton class:
 2. Create a private constructor
 3. Create a static method that returns the instance of the class(Step 1)
 
-Drawback - Static insatnce gets created. Because of this the instance is alwys associated with the class and will take up memory
+Drawback - Static instance gets created. Because of this the instance is always associated with the class 
+and will take up memory
 If the object is bulky = wastage of memory
 This type of object creation = Eagerly instance creation
 We can make it lazy -> We can create the instance only when the getInstance method gets called

@@ -9,7 +9,7 @@ PAssing all parameters - Difficult( To know the sequense) and
 in some cases the user may not be able to send all the parameters or may be unaware of them
 
 This is overcome by builder design pattern
-There will be setters that returns the object after setting ech parameter step wise
+There will be setters that returns the object after setting each parameter step wise
 The Builder class further has a getPhone method that returns the object of phone
 
 At the client side you can create the object of builder
